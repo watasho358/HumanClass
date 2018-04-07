@@ -14,7 +14,7 @@ class Human extends Animal {
     public void say() {
         Log.d("javatest", "「私の名前は" + this.name + "です。年齢は" + this.age + "歳です。」");
     }
-       public void think(){
+    public void think(){
          Log.d("javatest", "私は" + this.hobby + "について考える");
         }
 }
