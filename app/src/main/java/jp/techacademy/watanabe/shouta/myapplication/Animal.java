@@ -4,7 +4,6 @@ package jp.techacademy.watanabe.shouta.myapplication;
 
         String name;
         int age;
-        String hobby;
 
         abstract public void say();
 

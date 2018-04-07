@@ -13,10 +13,11 @@ public class MainActivity extends Activity {
 
         Dog dog = new Dog("ポチ", 3);
 
+        dog.say();
         dog.move();
 
         Human human = new Human("しょうた", 21, "ゲーム");
-
+        human.say();
         human.think();
     }
 }
